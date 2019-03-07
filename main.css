@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css?family=Akronim|Allerta+Stencil');
+
+
+
+* {
+    margin: 0 auto;
+    text-decoration: none !important;
+}
+
+body {
+    overflow-x: hidden; 
+    background: #E5E5E5 !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Menu */
+
+.menu-padding {
+    padding-top:40px;
+}
+
+.sticky {
+    position:fixed;
+    top:0;
+}
+
+.navbar-expand-md {
+    font-family: sans-serif;
+    background-color: #222222; 
+}
+
+.navbara{
+    color: #ffffff;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 27px;
+    padding: 0px 10px;
+}
+
+.collapse .nav-item {
+    padding: 0px 20px;
+}
+
+.icons .nav-item {
+    padding: 0px 3px;
+}
+
+/* Profil */
+
+#profil {
+    padding: 50px 0px;
+    color: #ffffff;
+    background-color: #2E2E2E;
+}
+
+.r{
+    margin-top: 30px;;
+}
+.me {
+    font-size: 20px;
+    text-align: center;
+    height: auto;
+    padding: 30px 0px;
+    background-color: #2E2E2E;
+}
+
+.ja {
+    margin-right: 20px;
+    height: 250px;
+    float: left;
+}
+
+@media only screen and (max-width: 500px) {
+    .ja {
+        float: none;
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px){
+    .ja {
+        margin: 30px 20px 10px 0px;
+        height: 350px;
+    }
+}
+
+
+/* Skills*/
+
+.skills{
+    background: #fafafa;
+}
+#skills {
+    padding-bottom: 30px;;
+    background: #fafafa;
+}
+
+#skills h1 {
+    padding-top: 10px;
+    color: black;
+}
+
+.text-skill{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 3px solid #2E2E2E;
+}
+
+
+.skills-info {
+    color: black;
+    text-align: center;
+    border-bottom: 1px solid #9a9a9a;
+}
+
+/* Projekty */
+
+#projekty {
+    filter: drop-shadow(0px 0px 3px #2E2E2E);
+}
+
+#projects {
+    padding-top: 30px;
+    background-color: #E5E5E5;
+}
+
+
+#projekty img  {
+    margin-top: 5px;
+    padding: 0px 5px;
+}
+
+.card {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.card-img-top{
+}
+
+.card-title{
+    color: white;
+    background: #14213D;
+    padding: 8px;
+    margin: 0px -21px;
+}
+
+.row {
+    margin: 15px auto;
+}
+
+.des{
+    font-weight: bold;
+    margin: 40px 0px;
+    color: #ff0000;
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+/* contact */
+
+#contact{
+    background: #E5E5E5; 
+}
+
+.contact {
+    color: #070000;
+    text-align: center;
+}
+
+.dane {
+}
+
+.form-control{
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.form-group{
+}
+
+.tresc{
+    height: 190px;
+}
+
+#contact .btn{
+    color: white;
+    width: 200px;
+    height: 40px;
+    background-color: #14213D;
+}
+
+#contact .btn:hover{
+    color: black;
+    background-color: #FCA311;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+/* Footer */
+footer {
+    background: #2E2E2E;
+}
+#footer {
+    color: white;
+    text-align: center;;
+    height: 40px;
+    line-height: 40px;
+}
+
