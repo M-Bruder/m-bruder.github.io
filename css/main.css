@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Akronim|Allerta+Stencil');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
 
 
 
@@ -32,7 +33,6 @@ h1 {
 
 
 /* Menu */
-
 
 .navbar {
     font-family: sans-serif;
@@ -137,12 +137,12 @@ h1 {
     border-radius: 100%;
     height: 250px;
     width: 250px;
-    border: 5px solid #4173AE;
+    border: 5px solid #5ea9ff;
 }
 
 .home__title {
-    font-size: 58px;
-    text-shadow: 3px 3px 2px black;
+    font-size: 56px;
+    text-shadow: 3px 3px 2px #000000;
     color: #ffffff;
     display: inline-block;
 }
@@ -161,7 +161,7 @@ h1 {
 }
 
 .home__scroll:hover {
-    color: #E2EBF0;
+    color: #5ea9ff;
     font-size: 5rem;
 }
 
@@ -193,19 +193,18 @@ h1 {
 .about__text--cv {
     color: #ffffff;
     background-color: #001C58;
-    float: left;
 }
 
 .about__text--cv:hover {
-    color: #ffffff;
-    background-color: #4173AE;
-    float: left;
+    color: #000000;
+    background-color: #5ea9ff;
 }
 
 .about__text--sign {
-    font-size: 30px;
+    font-size: 40px;
     font-style: italic;
-    font-family: sans-serif;
+    font-weight: 700;
+    font-family: 'Sacramento', cursive;
     float: right;
 }
 
@@ -218,13 +217,14 @@ h1 {
 }
 
 .skills__title {
-    color: 
+    margin-bottom: 20px;
 }
 
 .skills__category {
     color:  #ffffff;
     text-align: center;
 }
+
 
 
 .skill__img {
@@ -260,27 +260,53 @@ h1 {
 
 .card {
     filter: drop-shadow(0px 0px 3px #2E2E2E);
-    text-align: center;
     margin: 15px auto;
 }
 
 .card-img-top {
-    min-height: 40%;
-    height: 50%;
+    min-height: 30%;
+    height: 30%;
 }
 
 
-.card-title, .project__title {
-    color: #FFFFFF;
-    background: #4173AE;
-    padding: 10px;
-    margin: 0px -21px;
+.card-title {
+    text-align: center;
+    color: #000000;
+    background: #ffffff;
+    padding: 10px 0px;
+    margin: 0 0;
+   box-shadow: 0px 3px 3px 0px #001C58;
 }
 
+.card-text--technology {
+    font-weight: 600;
+    text-align: center;
+}
+
+.technology {
+    width: 100%;
+    margin: 10px -20px;
+    text-align: center
+    
+}
+
+.technology__name {
+    font-size: 16px;
+    font-weight: 600;
+   display: inline-block;
+    margin: 1px -1px;
+    border: 3px solid #001C58;
+    background-color: rgba(94, 169, 255, 0.85);
+    width: 90px;
+    padding: 5px 0px;
+}
+
+.card-body {
+    width: 100%;
+}
 
 .card-footer {
-  float: right;
-width: 100%;
+  width: 100%;
 }
 
 
@@ -294,13 +320,12 @@ width: 100%;
 .project__button {
     color: white;
     background-color: #001C58; 
-    margin-right: 5px;
     float: right;
 }
 
 .project__button:hover {
-    color: white;
-    background-color: #4173AE; 
+    color: #000000;
+    background-color: #5ea9ff;
     transition: 0.4s;
 }
 
@@ -343,8 +368,8 @@ width: 100%;
 }
 
 .contact__button:hover {
-    color: white;
-    background-color: #4173AE;
+    color: #001C58;
+    background-color: #5ea9ff;
     transition: 0.4s;
 }
 
