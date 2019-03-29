@@ -41,7 +41,7 @@ h1 {
 
 .navbar-dark {
     transition: all 0.5s ease-in-out;
-    box-shadow: 0px 5px 10px 0px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px 4px rgb(0, 0, 0);
     height: 60px;
 }
 
@@ -50,7 +50,7 @@ h1 {
     transition: all 0.5s ease-in-out;
     height: 80px;
     border-bottom: 2px solid rgba(255, 0, 0, 0);
-    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0);
 }
 
 
@@ -68,14 +68,12 @@ h1 {
     height: 100%;
     display: block;
     font-size: 18px;
-    padding-right: 0px;
 }
 
 .fa-icon { 
    color: #ffffff;
     margin: 0 1px;
 }
-
 
 .nav-link {
     text-align: center;
@@ -128,7 +126,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 28, 88, 0.5);
+    background-color: rgba(0, 28, 88, 0.51);
     padding: 20px 0;
 }
 
@@ -139,6 +137,7 @@ h1 {
     width: 250px;
     border: 5px solid #5ea9ff;
 }
+
 
 .home__title {
     font-size: 56px;
@@ -163,6 +162,7 @@ h1 {
 .home__scroll:hover {
     color: #5ea9ff;
     font-size: 5rem;
+
 }
 
 /* Profil */
@@ -172,18 +172,21 @@ h1 {
 }
 
 .about__content {
-    padding: 100px 0px 100px;
+    
+    padding: 50px 0px;
 }
 
 
 .about__title {
-    color: #000000;
+      color: #001C58;
 }
 
 .about__text {
-    padding: 10px 0;
-    color: #000000;
+      color: #001C58;
+
     font-size: 18px;
+    letter-spacing: 1px;
+    text-indent: 50px;
 }
 
 .about__icon--cv {
@@ -201,7 +204,7 @@ h1 {
 }
 
 .about__text--sign {
-    font-size: 40px;
+    font-size: 36px;
     font-style: italic;
     font-weight: 700;
     font-family: 'Sacramento', cursive;
@@ -295,8 +298,8 @@ h1 {
     font-weight: 600;
    display: inline-block;
     margin: 1px -1px;
-    border: 3px solid #001C58;
-    background-color: rgba(94, 169, 255, 0.85);
+    border: 2px solid #001C58;
+    background-color: rgba(94, 169, 255, 0.5);
     width: 90px;
     padding: 5px 0px;
 }
@@ -329,7 +332,19 @@ h1 {
     transition: 0.4s;
 }
 
+.project__button--img{
+    color: #001C58;
+    
+}
 
+.project__button--img:hover {
+    color: #001C58;
+}
+
+.project__more {
+    font-size: 20px;
+    padding: 20px;
+}
 
 /* contact */
 
@@ -400,10 +415,15 @@ h1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 4px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
+.contact {
+    letter-spacing: 1px;
+}
+
 /* Footer */
 
 .footer {
-    background: #222222;
+    box-shadow: 0px 0px 10px 1px black;;
+    background: #001C58;
     padding-top: 10px;
     display: flex;  
 }
