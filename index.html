@@ -5,12 +5,12 @@
     <title>Michał Bruder</title>
     <meta charset="utf-8">
     <meta name="description" content="Na stronie znajdziesz informacje o mnie, zrealizowane projekty oraz CV" />
-    <meta name="keywords" content="programowanie,programista,portfolio,projekty,cv, strony, internetowe, aplikacje, webowe" />
+    <meta name="keywords" content="programowanie, programista, portfolio, projekty, cv, strony, internetowe, aplikacje, webowe" />
     <meta name="author" content="Michał Bruder" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#001C58" />
 
-    <!--- CSS === -->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,21 +18,21 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark  navbar-transparent ">
-        <a class="navbar-bran navbar__logo" href="#home">Michał Bruder</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-md-center" id="nav">
-            <ul class="nav navbar-nav nav-fill ">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">O mnie</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Umiejętności</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projekty</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark navbar-transparent">
+        <div class="container">
+            <a class="navbar__logo" href="#home">Michał Bruder</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">O mnie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Umiejętności</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projekty</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
         </div>
-
         <!--<ul class="navbar-nav ml-md-auto d-none d-md-flex">
             <li class="nav-item-icon">
                 <a class="nav-link" href="google.pl" target="_blank"><i class="fa fa-file-text fa-lg fa-icon"></i></a>
@@ -65,8 +65,8 @@
     <section id="about" class="section about">
         <div class="container about__content ">
             <h1 class="about__title title--color">O mnie</h1>
-            <p class="about__text">Jestem absolwentem kierunku Elektroniki na Politechnice Wrocławskiej. Moją pasją jest programowanie i poznawanie nowych technologii. Lubię podejmować nowe wyzwania. </p>
-            <p class="about__text">Naukę programowania zaczynałem ucząc się języka C/C++, co sprowadziło się do ruszenia naprzód w kierunku programowania i poznanie różnych technologii. W czasie studiów miałem okazję mieć styczność z Matlabem, programowaniem w Unixie i bazami danych Oracle oraz z różnymi językami programowania Assembler, Java, Python, Javascript. Tematem mojej pracy inżynierskiej był „System zarządzania projektami”, który został stworzony jako aplikacja internetowa zrealizowany głownie opraciu o język JavaScript. Staram się poznać w podstawowym zakresie, a nawet, gdy jest taka potrzeba bardziej się zagłębić z każdą technologią, tak, aby osiągnąć stworzoną aplikacje. </p>
+            <p class="about__text">Jestem absolwentem kierunku Elektroniki na Politechnice Wrocławskiej. Moją pasją jest programowanie i poznawanie nowych technologii. Jestem chętny do nauki i lubię podejmować nowe wyzwania. </p>
+            <p class="about__text">Naukę programowania zaczynałem ucząc się języka C/C++, co sprowadziło się do ruszenia naprzód w kierunku programowania i poznanie różnych technologii. W czasie studiów miałem okazję mieć styczność z Matlabem, programowaniem w Unixie i bazami danych Oracle oraz z różnymi językami programowania Assembler, Java, Python, Javascript. Tematem mojej pracy inżynierskiej był „System zarządzania projektami”, który został stworzony jako aplikacja internetowa zrealizowany głownie w oparciu o język JavaScript. Staram się poznać w podstawowym zakresie, a nawet, gdy jest taka potrzeba bardziej się zagłębić z każdą technologią, tak, aby osiągnąć stworzoną aplikacje. </p>
             <p class="about__text">Chciałbym zająć się zawodowo programowaniem, ciągle się rozwijać, pogłębiać swoją wiedzę z programowania i zdobyć doświadczenie w branży IT. Dlatego poszukuję stażu, stabilnej pracy, która pozwoli mi rozwijąć się w tym kierunku.
             </p>
             <a class="btn btn-lg about__text--cv" href="utils/CV.pdf" target="_blank" role="button"><i class="fa fa-file-text about__icon--cv"></i>Curriculum vitae</a>
@@ -129,7 +129,14 @@
                         </div>
                         <div class="col-8">
                             <h3 class="skill__name">Java</h3>
-                            <p class="skill__description">Głownie wykorzystywany przeze mnie w aplikacji na Androida. W przyszłości mam zamiar stworzyć aplikacje internetowa wykorzystując go do back-endu. </p>
+                            <p class="skill__description">Wykorzystywany przeze mnie na studiach do zbudowania aplikacji na Androida, która wyciszała telefon w wskazanym wcześniej obszarze. </p>
+                        </div>
+                            <div class="col-4 skill__img">
+                            <img class="skill__img" src="./images/skills/python.png" alt="python">
+                        </div>
+                        <div class="col-8">
+                            <h3 class="skill__name">Python</h3>
+                            <p class="skill__description">Wykorzystany przeze mnie na studiach na jednym semestrze do zbudowania aplikacji z wykorzystaniem sieci neuronowych.</p>
                         </div>
                     </div>
                     <h2 class="skills__category">Frameworki: </h2>
@@ -157,7 +164,7 @@
                         </div>
                         <div class="col-8">
                             <h3 class="skill__name"> Bootstrap </h3>
-                            <p class="skill__description"> Framework zawierający zestaw stylów CSS, a także rozszerzających jego możliwość skryptów, który wykorzystywany przez mnie do szybkiego budowanie wyglądu strony internetowej, a takze pomaga zachować stronę responsywną. </p>
+                            <p class="skill__description"> Zawieraja zestaw gotowych stylów CSS, a także rozszerzających jego możliwość skryptów, który wykorzystywany przez mnie do szybkiego budowanie wyglądu strony internetowej, a takze pomaga zachować stronę responsywną. </p>
                         </div>
                     </div>
                 </div>
@@ -198,8 +205,8 @@
                             <img class="skill__img" src="./images/skills/oracle.png" alt="OracleDB">
                         </div>
                         <div class="col-8">
-                            <h3 class="skill__name">OracleDB</h3>
-                            <p class="skill__description">Relacyjna baza danych, jezykiem zapytań jest SQL oraz PL/SQl. Wykorzystywana na jednym semestrze i zbubdowałem na niej projekt "ankieta do oceny kursów przez studentów" w opraciu o oracle apex.</p>
+                            <h3 class="skill__name">Oracle</h3>
+                            <p class="skill__description">Relacyjna baza danych. Wykorzystywana na jednym semestrze i zbudowałem na niej projekt "ankieta do oceny kursów przez studentów" w oparciu o Oracle Apex.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -246,7 +253,7 @@
                         </div>
                         <div class="col-8">
                             <h3 class="skill__name">Node Package Manager</h3>
-                            <p class="skill__description">Posiada bogaty dostęp do bibliotek/frameworków. Za pomocą jednej komendy NPM można zainstalować konkretne rozszerzenie do aplikacji internetowej. </p>
+                            <p class="skill__description">Posiada bogaty dostęp do bibliotek/frameworków. Za pomocą jednej komendy NPM można zainstalować konkretne rozszerzenie do aplikacji. </p>
                         </div>
                     </div>
                     <div class="row">
@@ -255,16 +262,7 @@
                         </div>
                         <div class="col-8">
                             <h3 class="skill__name">GIT</h3>
-                            <p class="skill__description">System kontroli wersji. Wykorzystywany przez mnie z gitkrakenem i za pomocą terminala git bash. Git commit, git push, git pull ... </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4 skill__img">
-                            <img class="skill__img" src="./images/skills/matlab.png" alt="Matlab">
-                        </div>
-                        <div class="col-8">
-                            <h3 class="skill__name"> Matlab</h3>
-                            <p class="skill__description">Program, który został przez mnie wykorzystany na studiach do obliczeń inżynierskich i tworzenia symulacji komputerowych. Dokładnie m.in. mówiąc do przetwarzania obrazów, symulacji układów np. regulatory PID, generowania wykresów </p>
+                            <p class="skill__description">System kontroli wersji. Wykorzystywany przez mnie z pomocą terminala git bash. Git commit, git push, git pull ... </p>
                         </div>
                     </div>
                 </div>
@@ -284,7 +282,6 @@
                         </div>
                         <div class="card-body">
                             <p class="card-text">Responsywana strona internetowa na której obecnie się znajdujesz.</p>
-
                             <hr>
                             <ul class="technology">
                                 <li class="technology__name">HTML5</li>
@@ -296,18 +293,18 @@
                         </div>
 
                         <div class="card-footer bg-transparent">
-                            <a class="btn project__button" href="google.pl" target="_blank" role="button"><i class="fa fa-github project__button--github"></i></a>
+                            <a class="btn project__button" href="https://github.com/M-Bruder/m-bruder.github.io" target="_blank" role="button"><i class="fa fa-github project__button--github"></i></a>
                         </div>
                     </div>
 
                     <div class="card">
                         <img class="img-fluid" src="./images/projects/fruitsRecognition%20(1).png" alt="Project 2">
                         <div class="card-title">
-                            <h5 class="">Fruits recognity</h5>
+                            <h5 class="">Fruits recognition</h5>
                         </div>
                         <div class="card-body">
                             <p class="card-text">Aplikacja desktopowa z wykorzystaniem konwolucyjnej sieci neuronowej (CNN) do rozpoznawania owoców: borówki, wiśnie, brzoskiwiny i maliny.</p>
-                            <p class="card-text card-text--technology"> Wykorzystane technologie:</p>
+                            <hr>
                             <ul class="technology">
                                 <li class="technology__name">Python</li>
                                 <li class="technology__name">Keras</li>
@@ -316,7 +313,7 @@
                         </div>
 
                         <div class="card-footer bg-transparent ">
-                            <a class="btn project__button" href="google.pl" target="_blank" role="button"><i class="fa fa-github project__button--github"></i></a>
+                            <a class="btn project__button" href="https://github.com/M-Bruder/Fruits-recognition" target="_blank" role="button"><i class="fa fa-github project__button--github"></i></a>
                         </div>
 
                     </div>
@@ -328,7 +325,7 @@
                             <h5 class="project__title">System zarządzania projektami</h5>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">Aplikacja internetowa, która ma ułatwić zarządzanie projektami, połączony z bazą danych MongoDB. Głownie wykonana w JavaScript. </p>
+                            <p class="card-text">Aplikacja internetowa, która ma na celu ułatwić zarządzanie projektami. </p>
                             <hr>
                             <ul class="technology">
                                 <li class="technology__name">HTML5</li>
@@ -348,51 +345,34 @@
                         </div>
 
                         <div class="card-footer bg-transparent">
-
-                            <a class="btn project__button" href="google.pl" target="_blank" role="button"><i class="fa fa-github project__button--github"></i></a>
+                            <a class="btn project__button" href="https://github.com/M-Bruder/Project-management" target="_blank" role="button"><i class="fa fa-github project__button--github"></i></a>
                         </div>
                     </div>
-                    <div class="card project ">
+                    <div class="card project">
+                        <img class="img-fluid" src="./images/projects/cat-app/cat-app.png" alt="Cat-app-img">
                         <div class="card-title">
-                            <h5 class="">PhoneSilencer</h5>
+                            <h5 class="">Cat app</h5>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">Aplikacja na system Android, która wycisza telefon w oparciu o położenie GPS.</p>
-                            <p class="card-text card-text--technology"> Wykorzystane technologie:</p>
+                            <p class="card-text">Aplikacja internetowa do losowania obrazów z kotami połączona z zewnętrznym API.</p>
+                    <hr>
                             <ul class="technology">
-                                <li class="technology__name">Java</li>
+                                <li class="technology__name">HTML5</li>
+                                <li class="technology__name">CSS3</li>
+                                <li class="technology__name">JavaScript</li>
+                                <li class="technology__name">React</li>
+                                <li class="technology__name">Axios</li>
+                                <li class="technology__name">Babel </li>
+                                <li class="technology__name">Webpack</li>
                             </ul>
                         </div>
 
                         <div class="card-footer bg-transparent ">
-                            <a class="btn project__button" href="google.pl" target="_blank" role="button"><i class="fa fa-github project__button--github"></i></a>
+                            <a class="btn project__button" href="https://github.com/M-Bruder/cat-app" target="_blank" role="button"><i class="fa fa-github project__button--github"></i></a>
                         </div>
                     </div>
-                    <div class="row">
-                    <div class="project__more text-center">
-                        <p class="text-center"> Więcej można znaleźć na GitHubie:
-                            </p>
-                        <a class="btn fa-stack fa-4x project__button--img" href="google.pl" target="_blank" role="button">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-github  fa-stack-1x fa-inverse"></i>
-                        </a>
-                    </div>
-                </div>
                 </div>
             </div>
-                            <div class="row">
-                    <div class="card">
-                        <a class="btn fa-stack fa-4x project__button--img" href="google.pl" target="_blank" role="button">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-github  fa-stack-1x fa-inverse"></i>
-                        </a>
-
-                        <div class="card-body">
-                            <p class="card-text text-center"> Więcej mniejszych projektów oraz ćwiczeń można znaleźć na GitHubie.
-                            </p>
-                        </div>
-                    </div>
-                </div>
         </div>
     </section>
 
@@ -432,26 +412,26 @@
 
             <hr>
             <div class="row contact__info">
-                <div class="col-lg-8 col-md-11 col-sm-12">
+                <div class="offset-lg-2 col-lg-8 col-md-11 col-sm-12">
                     <h1 class="contact__title">Michał Bruder</h1>
                     <p class="contact__text">
                         Adres e-mail: michal@bruder.top</p>
                     <div class="row contact__icon">
                         <a class="fa-stack fa-4x contact__img " href="google.pl" target="_blank">
                             <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-file-text  fa-stack-1x fa-inverse"></i>
+                            <i class="fa fa-file-text fa-stack-1x fa-inverse"></i>
                         </a>
                         <a class="fa-stack fa-4x contact__img " href="google.pl" target="_blank">
                             <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-envelope  fa-stack-1x fa-inverse"></i>
+                            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                         </a>
                         <a class="fa-stack fa-4x contact__img " href="google.pl" target="_blank">
                             <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-linkedin  fa-stack-1x fa-inverse"></i>
+                            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                         </a>
                         <a class="fa-stack fa-4x contact__img " href="google.pl" target="_blank">
                             <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-github  fa-stack-1x fa-inverse"></i>
+                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                         </a>
                     </div>
                 </div>
