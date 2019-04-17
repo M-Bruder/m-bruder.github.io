@@ -22,7 +22,6 @@
         }
 
 // Scroll effect
-
         $(document).ready(function() {
             $('a[href^="#"]').on('click', function(event) {
                 var target = $($(this).attr('href'));
@@ -32,39 +31,25 @@
                 }, 1000);
 
             });
-
-            /*$(document).scroll(function() {
-                //get document scroll position
-                var position = $(document).scrollTop();
-                //get header height
-                var header = $('nav').outerHeight();
-
-                //check active section
-                $('.section').each(function(i) {
-                    if ($(this).position().top >= (position + header)) {
-                        $("a.active").removeClass('active');
-                        $("a").eq(i).addClass('active');
-                    }
-                });
-            });*/
-
         });
 
  // Change navbar
+        $(document).ready(function() {
+                if ($(window).width() <= 768) {
+                    $("nav").removeClass('navbar-transparent');
+                }
+        });
+
         $(window).on('scroll', function() {
             var cur_pos = $(this).scrollTop();
-
-                if (cur_pos < 200 && $(this).width() >= 768) {
-                    $('nav').toggleClass('navbar-transparent');
-                    //$('nav').addClass('navbar-transparent');
-                    //sections.removeClass('active');
+                if (cur_pos < 200 && $(window).width() >= 768) {
+                    $('nav').addClass('navbar-transparent');
                 } else {
-                    //$("nav").removeClass('navbar-transparent');
+                    $("nav").removeClass('navbar-transparent');
                 }
         });
 
 //Change navbar item depending current position
-
         var sections = $('section'),
             nav = $('nav'),
             nav_height = nav.outerHeight();
@@ -77,8 +62,6 @@
                     bottom = top + $(this).outerHeight();
 
                 if (cur_pos >= top && cur_pos <= bottom) {
-                    nav.find('a').removeClass('active');
-                    $('nav').removeClass('navbar-transparent');
                     nav.find('a[href="#' + $(this).attr('id') + '"]').addClass('active');
                 } else {
                     nav.find('a[href="#' + $(this).attr('id') + '"]').removeClass('active');
