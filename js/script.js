@@ -1,5 +1,5 @@
 // Contact Form
-        var message = "";
+        /*var message = "";
         $("#sendMessage").on("click", function() {
             message = $("#contactForm").serialize();
             $.ajax({
@@ -12,7 +12,7 @@
             });
             alert('Thanks for the email, we\'ll be in touch promptly.');
             return false;
-        });
+        });*/
 
         var contactform = document.getElementById('contactForm');
         contactform.setAttribute('action', '//formspree.io/' + 'michal' + '@' + 'bruder' + '.' + 'top');
